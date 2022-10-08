@@ -63,9 +63,29 @@ namespace SistemaInventario.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _142_1427049_control_de_inventarios {
+            get {
+                object obj = ResourceManager.GetObject("142-1427049_control-de-inventarios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap afiche1 {
             get {
                 object obj = ResourceManager.GetObject("afiche1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap control_inventario_erp_3 {
+            get {
+                object obj = ResourceManager.GetObject("control-inventario-erp-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +126,16 @@ namespace SistemaInventario.Properties {
         internal static System.Drawing.Bitmap logo_uenic_y_galileo_02_1_1024x3111 {
             get {
                 object obj = ResourceManager.GetObject("logo-uenic-y-galileo-02-1-1024x3111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_student_student_cartoon_characters_character {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-student-student-cartoon-characters-character", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

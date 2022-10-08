@@ -24,8 +24,6 @@ C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInv
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CapaEntidad.dll
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CapaNegocios.dll
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\FontAwesome.Sharp.Pro.dll
-C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CapaDatos.dll
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CapaEntidad.pdb
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CapaNegocios.pdb
@@ -46,3 +44,6 @@ C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInv
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.Eliminar.resources
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.Modificar.resources
 C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.Menuinvitado.resources
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CircularProgressBar.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\bin\Debug\CircularProgressBar.xml
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.splashscreen.resources

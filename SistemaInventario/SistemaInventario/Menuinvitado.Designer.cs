@@ -31,39 +31,40 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menuinvitado));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.iconver = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.txthome = new System.Windows.Forms.Label();
             this.panelhijo = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.iconver = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconPicturehome = new FontAwesome.Sharp.IconPictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.iconPicturehome = new FontAwesome.Sharp.IconPictureBox();
             this.barra = new System.Windows.Forms.Panel();
+            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.iconPicturemini = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
             this.iconPicturxxx = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureminus = new FontAwesome.Sharp.IconPictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconSalir = new FontAwesome.Sharp.IconButton();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panelhijo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPicturehome)).BeginInit();
+            this.panelhijo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPicturehome)).BeginInit();
             this.barra.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPicturemini)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPicturxxx)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureminus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -89,49 +90,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 140);
             this.panel1.TabIndex = 0;
-            // 
-            // txthome
-            // 
-            this.txthome.AutoSize = true;
-            this.txthome.Font = new System.Drawing.Font("Lucida Sans Unicode", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txthome.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txthome.Location = new System.Drawing.Point(-27, 15);
-            this.txthome.Name = "txthome";
-            this.txthome.Size = new System.Drawing.Size(71, 23);
-            this.txthome.TabIndex = 6;
-            this.txthome.Text = "Home";
-            // 
-            // panelhijo
-            // 
-            this.panelhijo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(189)))), ((int)(((byte)(31)))));
-            this.panelhijo.Controls.Add(this.dateTimePicker1);
-            this.panelhijo.Controls.Add(this.label1);
-            this.panelhijo.Controls.Add(this.pictureBox4);
-            this.panelhijo.Location = new System.Drawing.Point(208, 78);
-            this.panelhijo.Name = "panelhijo";
-            this.panelhijo.Size = new System.Drawing.Size(1334, 797);
-            this.panelhijo.TabIndex = 7;
-            this.panelhijo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelhijo_Paint);
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(933, 568);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(430, 40);
-            this.dateTimePicker1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Papyrus", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(154, 89);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(346, 51);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Gestion de Inventario";
             // 
             // pictureBox1
             // 
@@ -193,6 +151,60 @@
             this.iconButton2.UseVisualStyleBackColor = true;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
+            // txthome
+            // 
+            this.txthome.AutoSize = true;
+            this.txthome.Font = new System.Drawing.Font("Lucida Sans Unicode", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txthome.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.txthome.Location = new System.Drawing.Point(-27, 15);
+            this.txthome.Name = "txthome";
+            this.txthome.Size = new System.Drawing.Size(71, 23);
+            this.txthome.TabIndex = 6;
+            this.txthome.Text = "Home";
+            // 
+            // panelhijo
+            // 
+            this.panelhijo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(189)))), ((int)(((byte)(31)))));
+            this.panelhijo.Controls.Add(this.dateTimePicker1);
+            this.panelhijo.Controls.Add(this.label1);
+            this.panelhijo.Controls.Add(this.pictureBox4);
+            this.panelhijo.Controls.Add(this.iconSalir);
+            this.panelhijo.Location = new System.Drawing.Point(208, 78);
+            this.panelhijo.Name = "panelhijo";
+            this.panelhijo.Size = new System.Drawing.Size(1334, 797);
+            this.panelhijo.TabIndex = 7;
+            this.panelhijo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelhijo_Paint);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Transparent;
+            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Transparent;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(933, 568);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(430, 40);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Papyrus", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(154, 89);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(346, 51);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Gestion de Inventario";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(224, 121);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(1063, 387);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // iconPicturehome
             // 
             this.iconPicturehome.BackColor = System.Drawing.Color.Transparent;
@@ -206,16 +218,6 @@
             this.iconPicturehome.Size = new System.Drawing.Size(51, 54);
             this.iconPicturehome.TabIndex = 4;
             this.iconPicturehome.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(224, 121);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1063, 387);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
             // 
             // barra
             // 
@@ -234,6 +236,36 @@
             this.barra.Size = new System.Drawing.Size(1334, 83);
             this.barra.TabIndex = 8;
             // 
+            // iconPictureBox2
+            // 
+            this.iconPictureBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Compress;
+            this.iconPictureBox2.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox2.IconSize = 51;
+            this.iconPictureBox2.Location = new System.Drawing.Point(1213, 15);
+            this.iconPictureBox2.Name = "iconPictureBox2";
+            this.iconPictureBox2.Size = new System.Drawing.Size(51, 54);
+            this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconPictureBox2.TabIndex = 6;
+            this.iconPictureBox2.TabStop = false;
+            this.iconPictureBox2.Click += new System.EventHandler(this.iconPictureBox2_Click);
+            // 
+            // iconPictureBox3
+            // 
+            this.iconPictureBox3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.X;
+            this.iconPictureBox3.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox3.IconSize = 49;
+            this.iconPictureBox3.Location = new System.Drawing.Point(1280, 15);
+            this.iconPictureBox3.Name = "iconPictureBox3";
+            this.iconPictureBox3.Size = new System.Drawing.Size(49, 57);
+            this.iconPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconPictureBox3.TabIndex = 5;
+            this.iconPictureBox3.TabStop = false;
+            this.iconPictureBox3.Click += new System.EventHandler(this.iconPictureBox3_Click);
+            // 
             // iconPicturemini
             // 
             this.iconPicturemini.ForeColor = System.Drawing.Color.Black;
@@ -247,6 +279,22 @@
             this.iconPicturemini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconPicturemini.TabIndex = 3;
             this.iconPicturemini.TabStop = false;
+            // 
+            // iconPictureBox4
+            // 
+            this.iconPictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.iconPictureBox4.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox4.IconSize = 45;
+            this.iconPictureBox4.Location = new System.Drawing.Point(1129, 15);
+            this.iconPictureBox4.Name = "iconPictureBox4";
+            this.iconPictureBox4.Size = new System.Drawing.Size(45, 54);
+            this.iconPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconPictureBox4.TabIndex = 4;
+            this.iconPictureBox4.TabStop = false;
+            this.iconPictureBox4.Click += new System.EventHandler(this.iconPictureBox4_Click);
             // 
             // iconPicturxxx
             // 
@@ -309,51 +357,24 @@
             this.iconPictureBox1.TabIndex = 0;
             this.iconPictureBox1.TabStop = false;
             // 
-            // iconPictureBox2
+            // iconSalir
             // 
-            this.iconPictureBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Compress;
-            this.iconPictureBox2.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 51;
-            this.iconPictureBox2.Location = new System.Drawing.Point(1213, 15);
-            this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(51, 54);
-            this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconPictureBox2.TabIndex = 6;
-            this.iconPictureBox2.TabStop = false;
-            this.iconPictureBox2.Click += new System.EventHandler(this.iconPictureBox2_Click);
-            // 
-            // iconPictureBox3
-            // 
-            this.iconPictureBox3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.X;
-            this.iconPictureBox3.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 49;
-            this.iconPictureBox3.Location = new System.Drawing.Point(1280, 15);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(49, 57);
-            this.iconPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconPictureBox3.TabIndex = 5;
-            this.iconPictureBox3.TabStop = false;
-            this.iconPictureBox3.Click += new System.EventHandler(this.iconPictureBox3_Click);
-            // 
-            // iconPictureBox4
-            // 
-            this.iconPictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.iconPictureBox4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.iconPictureBox4.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox4.IconSize = 45;
-            this.iconPictureBox4.Location = new System.Drawing.Point(1129, 15);
-            this.iconPictureBox4.Name = "iconPictureBox4";
-            this.iconPictureBox4.Size = new System.Drawing.Size(45, 54);
-            this.iconPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconPictureBox4.TabIndex = 4;
-            this.iconPictureBox4.TabStop = false;
-            this.iconPictureBox4.Click += new System.EventHandler(this.iconPictureBox4_Click);
+            this.iconSalir.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(189)))), ((int)(((byte)(31)))));
+            this.iconSalir.FlatAppearance.BorderSize = 0;
+            this.iconSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconSalir.IconChar = FontAwesome.Sharp.IconChar.DoorClosed;
+            this.iconSalir.IconColor = System.Drawing.Color.Black;
+            this.iconSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconSalir.Location = new System.Drawing.Point(1001, 640);
+            this.iconSalir.Name = "iconSalir";
+            this.iconSalir.Size = new System.Drawing.Size(328, 62);
+            this.iconSalir.TabIndex = 8;
+            this.iconSalir.Text = "Cerrar Sesion";
+            this.iconSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconSalir.UseVisualStyleBackColor = false;
+            this.iconSalir.Click += new System.EventHandler(this.iconSalir_Click_1);
             // 
             // Menuinvitado
             // 
@@ -371,20 +392,20 @@
             this.Load += new System.EventHandler(this.Menuinvitado_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelhijo.ResumeLayout(false);
             this.panelhijo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPicturehome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPicturehome)).EndInit();
             this.barra.ResumeLayout(false);
             this.barra.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPicturemini)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPicturxxx)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureminus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -413,5 +434,6 @@
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox4;
+        private FontAwesome.Sharp.IconButton iconSalir;
     }
 }

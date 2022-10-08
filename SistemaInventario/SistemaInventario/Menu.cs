@@ -211,6 +211,15 @@ namespace SistemaInventario
         {
 
         }
+
+        private void iconSalir_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            Menu menuinvitado = new Menu();
+
+            this.Close();
+        }
     }
 }
 

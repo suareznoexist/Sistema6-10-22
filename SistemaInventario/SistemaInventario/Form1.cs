@@ -47,8 +47,16 @@ namespace SistemaInventario
         //BOTON DE INGRESAR
         private void btningresar_Click(object sender, EventArgs e)
         {
+            // estos bptones se ponen solo cuando el usuario sea correcto
+            splashscreen  so = new splashscreen();  
+            so.ShowDialog();
+
             Menu menu = new Menu();
-            menu.ShowDialog();
+
+
+            menu.Show();
+            Login login = new Login();
+          
             //BOTON INGRESAR
             //VALIDAR 
             //LIMPIAR TEXBOX
@@ -61,6 +69,7 @@ namespace SistemaInventario
                 //Login fr = new Add(ousuario);
                 //fr.Show();
                 //fr.FormClosing += formcl;
+                login.Close();
             }
             else
             {
@@ -138,11 +147,25 @@ namespace SistemaInventario
 
         private void iconinvitado_Click(object sender, EventArgs e)
         {
-            Menuinvitado menuinvitado = new Menuinvitado(); 
-            menuinvitado.ShowDialog();
+            Login login = new Login();
+            login.Close();
+            splashscreen so = new splashscreen();
+            so.ShowDialog();
+            Menuinvitado menuinvitado = new Menuinvitado();
+            
+              
+            menuinvitado.Show();
+            
+
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
         {
 
         }
