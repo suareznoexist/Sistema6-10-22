@@ -1,0 +1,16 @@
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Williamson\source\repos\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\bin\Debug\FontAwesome.Sharp.Pro.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Luis\Desktop\Sistema6-10-22\Sistema6-10-22\SistemaInventario\CapaEntidad\obj\Debug\CapaEntidad.pdb
